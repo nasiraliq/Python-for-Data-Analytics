@@ -57,7 +57,7 @@ plt.show()
 ```
 
 ### Results
-![Trending Skills](3_Projects\images\trending-skills.png)
+![Trending Skills](3_Projects/images/trending-skills.png)
 
 ### Insights
 
@@ -81,7 +81,7 @@ ax.set_xlabel("Salary (USD)")
 ax.xaxis.set_major_formatter(lambda x,pos:f"{int(x/1000)}K")
 plt.show()
 ```
-![Salary Analysis](3_Projects\images\salary_distribution.png)
+![Salary Analysis](3_Projects/images/salary_distribution.png)
 
 The boxplot reveals the following key insights about salary distributions across various data roles:
 
@@ -115,6 +115,6 @@ ax[1].xaxis.set_major_formatter(lambda x, pos: f"${int(x/1000)}K")
 fig.tight_layout()
 plt.show()
 ```
-![skills](3_Projects\images\skill_demanded_for_top_data_roles.png)
+![skills](3_Projects/images/skill_demanded_for_top_data_roles.png)
 
 The visualization shows that the highest-paid skills are specialized and often niche (e.g., Debian, RingCentral, and Haskell), commanding nearly $200,000 due to their rarity. In contrast, the most in-demand skills, such as Spark, AWS, Python, and SQL, are widely applicable and crucial across industries but offer comparatively lower pay. This reflects a trend where emerging, less common technologies are highly compensated, while broadly useful tools are in high demand but less lucrative.
